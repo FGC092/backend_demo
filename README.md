@@ -35,3 +35,5 @@ This projects intents to create a basic NodeJs structure and include the followi
 
 * Create a server worker to process information periodically
 * Handle asyncronous tasks with eventEmitter from 'events' module
+* Include logic using javascript prototypes and inheritance
+* Generate .js compiling from a .ts file
