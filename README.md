@@ -8,9 +8,9 @@ This demo includes 2 endpoints to gather data from a hardcoded url and execute s
 
 These endpoints returns a json with the following data: { number_of_products, average_price, average_rating, products }
 
-`http://localhost:3000/products/` - To review products without limit
+`POST` `http://localhost:3000/products/` - To review products without limit
 
-`http://localhost:3000/products/:maxListedProducts` - To review products with max limit. This endpoint requires the following token in authorization header to get a respones: `Basic ABCD`
+`POST` `http://localhost:3000/products/:maxListedProducts` - To review products with max limit. This endpoint requires the following token in authorization header to get a respones: `Basic ABCD`
 
 ## Server execution and implementation:
 
